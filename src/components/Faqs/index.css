@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+  padding-top: 90px;
+}
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 32px;
+  color: #cb8805;
+  margin-bottom: 0;
+}
+.faqs-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
